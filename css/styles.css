@@ -1,0 +1,35 @@
+body{
+	background-image: url("../img/triangles.png");
+}
+
+div:nth-child(1){
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	padding-bottom: 1.5em;
+	padding-left: 0;
+	margin-top: 0;
+}
+li:nth-child(1){
+	font-weight: bolder;
+	font-size: 4em;
+	margin-bottom: -15px;
+	color: rgba(230, 230, 230, .7);
+}
+li:nth-child(3){
+	font-style: italic;
+	font-size: .75em;;
+}
+
+div:nth-child(2){
+	position: absolute;
+	top: 300px;
+	left: 48%;
+}
